@@ -1,5 +1,7 @@
 /* custom styles */
 
 body {
-  background-image: url("../imgs/space.jpg");
+  /*background-image: url("../imgs/space.jpg");*/
+  font-family: 'Poiret One', cursive;
+  font-family: 'Open Sans', sans-serif;
 }
