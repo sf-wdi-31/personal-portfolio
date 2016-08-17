@@ -1,7 +1,48 @@
 /* custom styles */
 
 body {
-  /*background-image: url("../imgs/space.jpg");*/
+  background-image: url("../imgs/space.jpg");
   font-family: 'Poiret One', cursive;
-  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+#my-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  background-color: gray;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  
+}
+
+li {
+  display: inline-block;
+  float: left;5
+  margin: 1em 15em;
+  padding: 0 10em;
+  background-color: red;
+}
+
+a {
+  font-size: 22px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+#content {
+  margin-top: 500px;:
 }
