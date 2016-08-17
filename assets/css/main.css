@@ -1,15 +1,16 @@
 /* custom styles */
 
 body {
-  background-image: url("../imgs/space.jpg");
+  background-size: 100%;
   font-family: 'Poiret One', cursive;
   text-align: center;
   color: white;
 }
 
 img {
-  height: 200px;
+  height: 180px;
   width: 200px;
+  border-radius: 2px;
 }
 
 #my-header {
@@ -17,15 +18,12 @@ img {
   width: 100%;
   top: 0;
   z-index: 100;
-  background-color: gray;
-}
-
-h1 {
-  text-align: center;
+  background-color: #32292F;
 }
 
 nav {
-  
+  background-color: yellow;
+  margin-bottom: 2em;
 }
 
 li {
@@ -33,16 +31,26 @@ li {
   float: left;5
   margin: 1em 15em;
   padding: 0 10em;
-  background-color: red;
+  background-color: #99e1d9;
 }
 
 a {
   font-size: 22px;
+  font-weight: bold;
   text-decoration: none;
   list-style: none;
-  color: white;
+  color: black;
 }
 
 #content {
-  margin-top: 500px;:
+  position: absolute;
+  margin-top: 300px;
+  background-color: #F0F7F4;
+}
+
+.sections {
+  margin: 200px;
+  padding: 2em 10em;
+  background-color: #32292F;
+  border: 7px solid #99e1d9;
 }
