@@ -7,7 +7,7 @@ body {
   color: white;
 }
 
-img {
+#profile-pic {
   height: 130px;
   width: 150px;
   margin: 10px;
@@ -29,20 +29,14 @@ img {
 
 nav {
   background-color: #70ABAF;
-  margin-bottom: 2em;
   width: 100%;
   z-index: 100;
 }
 
-ul {
-  background-color: #70ABAF;
-  max-width: 100%;
-}
-
-li {
+.nav-buttons {
   display: inline-block;
   float: left;
-  padding: 0 10em;
+  padding: 5px 10em;
   background-color: #70ABAF;
   border-radius: 2px solid black;
 }
@@ -71,6 +65,17 @@ a {
   border-radius: 2px;
 }
 
+p {
+  font-size: 20px;
+}
+
+a.section-anchor {
+  display: block;
+  position: relative;
+  top: -400px;
+  visibility: hidden;
+}
+
 .work-link {
   display: block;
   margin: 1em;
@@ -80,6 +85,23 @@ a {
   height: 500px;
   width: 520px;
 }
+
+.contact-icon {
+  margin: 50px;
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
 
 @media (max-width: 500px) {
   img {
