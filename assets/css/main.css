@@ -73,7 +73,7 @@ a {
 a.section-anchor {
   display: block;
   position: relative;
-  top: -400px;
+  top: -100px;
   visibility: hidden;
 }
 
@@ -84,6 +84,7 @@ p {
 .work-link {
   display: block;
   margin: 1em;
+  margin-top: 3em;
 }
 
 .work-pic {
@@ -110,23 +111,31 @@ p {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 300px) {
   img {
-   height: 20%;
-   width: 30%;
+    height: 30%;
+    width: 30%;
   }
+
+  .nav-buttons {
+    margin: 5px 5em;
+  }
+
+  div {
+    margin: 20px 12px 0 12px;
+  }
+
   h1 {
     font-size: 20px;
     padding: 5px;
   }
-  ul {
-    font-size: 20px;
-  }
-  li {
-    padding: 5px;
-    display: block;
-  }
+
   p {
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .contact-icon {
+    height: 20%;
+    width: 20%;
   }
 }
