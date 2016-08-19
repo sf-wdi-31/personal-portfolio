@@ -66,6 +66,7 @@ a {
 }
 
 .section-titles {
+    border-style: none;
     border-bottom: solid #70ABAF;
 }
 
@@ -86,8 +87,10 @@ p {
 }
 
 .work-pic {
-  height: 500px;
-  width: 520px;
+  height: 700px;
+  width: 750px;
+  border-radius: 2px;
+  border: 7px solid #70ABAF;
 }
 
 .contact-icon {
