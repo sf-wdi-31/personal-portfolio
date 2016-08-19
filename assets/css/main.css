@@ -8,9 +8,11 @@ body {
 }
 
 img {
-  height: 180px;
-  width: 200px;
+  height: 130px;
+  width: 150px;
+  margin: 10px;
   border-radius: 2px;
+  border: 7px solid #70ABAF;
 }
 
 #my-header {
@@ -21,17 +23,28 @@ img {
   background-color: #32292F;
 }
 
+#my-name {
+  font-size: 50px;
+}
+
 nav {
-  background-color: yellow;
+  background-color: #70ABAF;
   margin-bottom: 2em;
+  width: 100%;
+  z-index: 100;
+}
+
+ul {
+  background-color: #70ABAF;
+  max-width: 100%;
 }
 
 li {
   display: inline-block;
-  float: left;5
-  margin: 1em 15em;
+  float: left;
   padding: 0 10em;
-  background-color: #99e1d9;
+  background-color: #70ABAF;
+  border-radius: 2px solid black;
 }
 
 a {
@@ -39,18 +52,52 @@ a {
   font-weight: bold;
   text-decoration: none;
   list-style: none;
-  color: black;
+  color: white;
 }
 
 #content {
   position: absolute;
   margin-top: 300px;
   background-color: #F0F7F4;
+  border-radius: 2px;
 }
 
 .sections {
   margin: 200px;
+  max-width: 100%;
   padding: 2em 10em;
   background-color: #32292F;
-  border: 7px solid #99e1d9;
+  border: 7px solid #70ABAF;
+  border-radius: 2px;
+}
+
+.work-link {
+  display: block;
+  margin: 1em;
+}
+
+.work-pic {
+  height: 500px;
+  width: 520px;
+}
+
+@media (max-width: 500px) {
+  img {
+   height: 20%;
+   width: 30%;
+  }
+  h1 {
+    font-size: 20px;
+    padding: 5px;
+  }
+  ul {
+    font-size: 20px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+  p {
+    font-size: 18px;
+  }
 }
