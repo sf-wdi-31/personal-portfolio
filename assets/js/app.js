@@ -11,8 +11,21 @@ $(document).ready(function(){
     }
   })
 
-  $('header').on("mouseover", function handleHover () {
-    $('#header-info').delay(800).slideDown("slow");
+  var time;
+
+  $('header').on("mouseenter", function handleHover () {
+    time = setTimeout (function () {
+      $('#header-info').slideDown("slow")}, 3000);
+
+  })
+
+  $('header').mouseleave(function () {
+    clearTimeout(time);
   })
 
 })
+
+
+  // var handleClick = $('.nav-buttons').click(function(event) {
+  //   event.preventDefault();
+  // })

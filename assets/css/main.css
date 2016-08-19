@@ -2,7 +2,8 @@
 
 body {
   background-size: 100%;
-  font-family: 'Poiret One', arial;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   color: white;
 }
@@ -78,7 +79,7 @@ a.section-anchor {
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .work-link {
