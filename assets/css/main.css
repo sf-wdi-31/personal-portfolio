@@ -51,7 +51,7 @@ a {
 
 #content {
   position: absolute;
-  margin-top: 300px;
+  padding-top: 300px;
   background-color: #F0F7F4;
   border-radius: 2px;
 }
