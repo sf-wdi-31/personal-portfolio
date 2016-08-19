@@ -2,7 +2,7 @@
 
 body {
   background-size: 100%;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', arial;
   text-align: center;
   color: white;
 }
@@ -65,8 +65,8 @@ a {
   border-radius: 2px;
 }
 
-p {
-  font-size: 20px;
+.section-titles {
+    border-bottom: solid #70ABAF;
 }
 
 a.section-anchor {
@@ -74,6 +74,10 @@ a.section-anchor {
   position: relative;
   top: -400px;
   visibility: hidden;
+}
+
+p {
+  font-size: 20px;
 }
 
 .work-link {
