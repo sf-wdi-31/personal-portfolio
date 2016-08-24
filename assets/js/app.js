@@ -6,7 +6,6 @@ $(document).ready(function(){
   $("#apps").css("display", "none");
   $("#exercises").css("display", "none");
 
-
   $(window).on("scroll", function handleScroll(){
     if ($(this).scrollTop() < 150) {
       $('#header-info').slideDown("slow");
@@ -17,33 +16,22 @@ $(document).ready(function(){
 
   var time;
 
-  $('header').on("mouseenter", function handleHover () {
+  $('header').mouseenter(function handleHover () {
     time = setTimeout (function () {
-      $('#header-info').slideDown("slow")}, 3000);
-
+      $('#header-info').slideDown("slow")}, 2000);
   })
 
   $('header').mouseleave(function () {
     clearTimeout(time);
   })
 
-
-  $( "#apps-title" ).click(function() {
-    $( "#apps" ).slideToggle( "slow", function() {
-      // Animation complete.
-    });
+  $( "#apps-title" ).click(function(event) {
+    event.preventDefault();
+    $( "#apps" ).slideToggle("slow");
   });
 
-  $( "#exer-title" ).click(function() {
-    $( "#exercises" ).slideToggle( "slow", function() {
-      // Animation complete.
-    });
+  $( "#exer-title" ).click(function(event) {
+    event.preventDefault();
+    $( "#exercises" ).slideToggle( "slow");
   });
-
-
 })
-
-
-  // var handleClick = $('.nav-buttons').click(function(event) {
-  //   event.preventDefault();
-  // })

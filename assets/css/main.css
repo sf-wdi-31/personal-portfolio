@@ -13,7 +13,7 @@ body {
   width: 150px;
   margin: 10px;
   border-radius: 2px;
-  border: 7px solid #70ABAF;
+  border: 7px solid #11939A;
 }
 
 #my-header {
@@ -29,7 +29,7 @@ body {
 }
 
 nav {
-  background-color: #70ABAF;
+  background-color: #11939A;
   width: 100%;
   z-index: 100;
 }
@@ -38,7 +38,7 @@ nav {
   display: inline-block;
   float: left;
   padding: 5px 10em;
-  background-color: #70ABAF;
+  background-color: #11939A;
   border-radius: 2px solid black;
 }
 
@@ -62,13 +62,13 @@ a {
   max-width: 100%;
   padding: 2em 10em;
   background-color: #32292F;
-  border: 7px solid #70ABAF;
+  border: 7px solid #11939A;
   border-radius: 2px;
 }
 
 .section-titles {
   border-style: none;
-  border-bottom: solid #70ABAF;
+  border-bottom: solid #11939A;
 }
 
 a.section-anchor {
@@ -104,7 +104,7 @@ p {
   height: 700px;
   width: 750px;
   border-radius: 2px;
-  border: 7px solid #70ABAF;
+  border: 7px solid #11939A;
 }
 
 .contact-icon {
@@ -145,6 +145,7 @@ p {
 
   p {
     font-size: 16px;
+    padding: 30px;
   }
 
   .contact-icon {
