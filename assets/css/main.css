@@ -43,6 +43,10 @@ nav {
   border-radius: 2px;
 }
 
+.nav-buttons:hover {
+  background-color: #32292F;
+}
+
 a {
   font-size: 22px;
   font-weight: bold;
@@ -94,6 +98,10 @@ p {
   border: none;
   text-decoration: none;
   font-size: 25px;
+}
+
+.work-section-title:hover {
+  color: #11939A;
 }
 
 .work-link {
