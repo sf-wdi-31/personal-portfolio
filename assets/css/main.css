@@ -1,169 +1,62 @@
-/* custom styles */
-
 body {
-  background-size: 100%;
-  font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: white;
+  font-family: 'Raleway', sans-serif;
+  color: #0FB493;
+  background-color: #1D2F3E;
 }
+
+h1 {
+  color: #0F9FB4;
+  font-size: 60px;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.card {
+  background-color: whiteSmoke;
+  font-family: 'Raleway', sans-serif;
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: #1D2F3E;
+  border-radius: 2px;
+  margin-bottom: 1rem; 
+}
+  .card .title {
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 300; }
+  .card .content {
+    padding: 1.3rem;
+    font-weight: 300;
+    border-radius: 0 0 2px 2px; }
+  .card p {
+    margin: 0; }
+  .card .action {
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 1.3rem; }
+  .card a {
+    color: #0F9FB4;
+    margin-right: 1.3rem;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none; }
+  .card .image {
+    position: relative; }
+    .card .image .title {
+      font-weight: bold;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 1.3rem;
+      color: #0F9FB4; }
+    .card .image img {
+      border-radius: 2px 2px 0 0; }
+
+
 
 #profile-pic {
-  height: 130px;
-  width: 150px;
-  margin: 10px;
-  margin-bottom: 13px;
-  border-radius: 2px;
-  border: 7px solid #11939A;
-}
+  overflow: hidden;
+  background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 80%);
 
-#my-header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 100;
-  background-color: #32292F;
-}
-
-#my-name {
-  font-size: 50px;
-}
-
-nav {
-  background-color: #11939A;
-  width: 100%;
-  z-index: 100;
-}
-
-.nav-buttons {
-  display: inline-block;
-  padding: 5px 5em;
-  margin: 0 5em;
-  background-color: #11939A;
-  border-radius: 2px;
-}
-
-.nav-buttons:hover {
-  background-color: #32292F;
-}
-
-a {
-  font-size: 22px;
-  font-weight: bold;
-  text-decoration: none;
-  list-style: none;
-  color: white;
-}
-
-#content {
-  position: absolute;
-  padding-top: 400px;
-  background-color: #F0F7F4;
-  border-radius: 2px;
-}
-
-.sections {
-  margin: 100px;
-  max-width: 100%;
-  padding: 2em 10em;
-  background-color: #32292F;
-  border: 7px solid #11939A;
-  border-radius: 2px;
-}
-
-.section-titles {
-  border-style: none;
-  border-bottom: solid #11939A;
-}
-
-a.section-anchor {
-  display: block;
-  position: relative;
-  top: -100px;
-  visibility: hidden;
-}
-
-p {
-  font-size: 18px;
-}
-
-.work-section {
-  margin: 10px;
-  margin-top: 30px;
-}
-
-.work-section-title {
-  color: white;
-  background-color: #32292F;
-  border: none;
-  text-decoration: none;
-  font-size: 25px;
-}
-
-.work-section-title:hover {
-  color: #11939A;
-}
-
-.work-link {
-  display: block;
-  margin: 1em;
-  margin-top: 3em;
-}
-
-.work-pic {
-  height: 700px;
-  width: 750px;
-  border-radius: 2px;
-  border: 7px solid #11939A;
-}
-
-.contact-icon {
-  margin: 50px;
-  text-decoration: none;
-  list-style: none;
-  display: inline;
-}
-
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
-}
-
-
-@media (max-width: 900px) {
-  img {
-    height: 30%;
-    width: 30%;
-  }
-
-  .nav-buttons {
-    margin: 5px 5em;
-  }
-
-  div {
-    margin: 20px 12px 0 12px;
-  }
-
-  h1 {
-    font-size: 20px;
-    padding: 5px;
-  }
-
-  h3 {
-    font-size: 17px;
-  }
-
-  p {
-    font-size: 16px;
-    padding: 30px;
-  }
-
-  .contact-icon {
-    height: 20%;
-    width: 20%;
-  }
+  /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);*/
+  /*border-radius: 50%;*/
 }

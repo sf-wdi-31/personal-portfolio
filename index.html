@@ -11,111 +11,173 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- styles -->
   <link rel="stylesheet" media="(max-width: 800px)" href="assets/css/main.css" />
+
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="vendor/foundation/foundation.css">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <!-- scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
 <body>
-    <header id="my-header">
-      <div id="header-info">
-        <h1 id="my-name">William Namen</h1>
-        <h3>My goal is simple, to make a lifelong commitment to realize a better tomorrow through technology and business.</h3>
-        <img id="profile-pic" src="assets/imgs/profile.jpg">
-      </div>
 
-      <div id="test">
-        <nav>
-          <ul>
-            <li class="nav-buttons"><a href="#who-am-i" rel="internal">Who Am I</a></li>
-            <li class="nav-buttons"><a href="#my-work" rel="internal">My Work</a></li>
-            <li class="nav-buttons"><a href="#my-blog" rel="internal">My Blog</a></li>
-            <li class="nav-buttons"><a href="#contact-me" rel="internal">Contact Me</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+  <header>
+    <div class="row">
+      <div class="medium-12 columns">
 
-    <div id="content">
-      <div name="who-am-i" class="sections" id="first_section">
-        <a class="section-anchor" name="who-am-i"></a>
-        <h1 class="section-titles">Who Am I</h1>
+        <div class="medium-7 columns text-justify">
+          <br>
+          <h1 id="my-name">William Namen</h1>
+          <h3 id="my-name">Full-Stack Developer</h3>
 
-        <p>I was born in El Salvador and moved to the United States when I was a child. My family settled down in Jacksonville, Florida where I spent my youth building in my backyard, playing soccer, and going to the beach. I attended the University of North Florida and graduated with a BBA in Finance and a Minor in Economics.</p>
-
-        <p>After working in the Finance industry for the past 2 years, I decided it was time realize my passion in tech. So, I moved to San Francisco to join a coding bootcamp to accelerate my career change. After completing App Academy's Bootcamp Prep Program, I accepted an offer to join General Assembly's WDI Program which I am currently a student of.</p>
-      </div>
-
-      <div name="my-work" class="sections" id="second-section">
-        <a class="section-anchor" name="my-work"></a>
-
-        <h1 class="section-titles">My Work</h1>
-
-        <div class="work-section">
-          <a class="work-section-title" id="apps-title" href="#">Web Applications</a>
-
-          <div id="apps">
-            <a class="work-link">Mastermind</a>
-            <a href="https://wnamen.github.io/mastermind"><img class="work-pic" src="assets/imgs/mastermind.png"></a>
-
-            <a class="work-link">Gif Search Engine</a>
-            <a href="https://wnamen.github.io/giffaw"><img class="work-pic" src="assets/imgs/giffaw.png"></a>
-
-            <a class="work-link">Tic-Tac-Toe</a>
-            <a href="https://wnamen.github.io/tic-tac-toe"><img class="work-pic" src="assets/imgs/tictactoe.png"></a>
-
-            <a class="work-link">Memory Game</a>
-            <a href="https://wnamen.github.io/memory-game"><img class="work-pic" src="assets/imgs/memory_game.png"></a>
-          </div>
+            <a href="https://www.facebook.com/wnamen"><img src="assets/imgs/facebook.png"></a>
+            <a href="https://plus.google.com/u/0/100205429986570291893/posts/p/pub"><img src="assets/imgs/google_plus.png"></a>
+            <a href="https://www.linkedin.com/in/williamnamen"><img src="assets/imgs/linkedin.png"></a>
+            <a href="https://github.com/wnamen"><img src="assets/imgs/github.png"></a>
+            <a href="mailto:williamjosephnamen@gmail.com"><img src="assets/imgs/email.png"></a>
+          <hr>
+          I am a Full Stack Web Developer with a background in Investments and Banking. My passions are Security, Space Technology, Big Data, Investments and Healthcare. I have the ability to learn and apply new skills very quickly. I successfully transitioned from a career in finance to web application development.
+          <br>
+          <br>
+          I am currently focused on building projects that capture my passions and look to directly solve problems within these fields. In my work, I push myself to be DRY and look for new technologies that increase the efficiency of my work. When it comes to teams, I love taking a lead role to promote collaboration and find a shared vision in which our team can strive for.
         </div>
-
-        <div class="work-section">
-          <a class="work-section-title" id="exer-title" href="#">Exercises</a>
-
-          <div id="exercises">
-            <a class="work-link">Functions Exercises</a>
-            <img class="work-pic" src="assets/imgs/functions.jpg">
-
-            <a class="work-link">jQuery Exercises</a>
-            <img class="work-pic" src="assets/imgs/jquery.png">
-
-            <a class="work-link">JavaScript Iterators Lab</a>
-            <img class="work-pic" src="assets/imgs/js_iterators.png">
-          </div>
+        <div class="medium-5 columns"><center>
+          <img id="profile-pic" src="assets/imgs/profile copy.png">
         </div>
-
       </div>
+    </div>
+  </header>
 
-      <div name="my-blog" class="sections" id="third-section">
-        <a class="section-anchor" name="my-blog"></a>
-        <h1 class="section-titles">My Blog</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
+  <hr>
 
-      <div name="contact-me" class="sections" id="fourth-section">
-        <a class="section-anchor" name="contact-me"></a>
-        <h1 class="section-titles">Contact Me</h1>
-
-        <p>If you are interested in learning more about me or would like to see more of my work, then please check out the links below!</p>
-
-        <ul class="clearfix">
-          <li class="contact-icon"><a href="https://www.facebook.com/wnamen"><img src="assets/imgs/facebook.png"></a></li>
-          <li class="contact-icon"><a href="https://plus.google.com/u/0/100205429986570291893/posts/p/pub"><img src="assets/imgs/google_plus.png"></a></li>
-          <li class="contact-icon"><a href="https://www.linkedin.com/in/william-namen-12578664"><img src="assets/imgs/linkedin.png"></a></li>
-          <li class="contact-icon"><a href="https://github.com/wnamen"><img src="assets/imgs/github.png"></a></li>
-          <li class="contact-icon"><a href="mailto:williamjosephnamen@gmail.com"><img src="assets/imgs/email.png"></a></li>
-        </ul>
-
+  <div class="row">
+    <div class="medium-4 columns">
+      <div class="card">
+        <div class="image">
+          <img src="assets/imgs/impactwatch.png">
+          <span class="title">impactWatch</span>
+        </div>
+        <div class="content">
+          <div class="text-justify">
+            impactWatch captures NASA's Meteorite Landings API and renders the data into a dynamic 3D model of the Earth. The model allows researchers to visualize any impact(s) on the Earth and share that data through CSV files.
+          </div>
+          <hr>
+          JavaScript, Node.js, three.js, WebGL, Foundation, JQuery, Heroku, & NASA's Open API - Meteorite Landings
+        </div>
+        <div class="action"><center>
+          <a href='https://impactwatch.herokuapp.com'>See the App</a>
+          <a href='https://github.com/wnamen/impactwatch'>See the Code</a>
+        </div>
       </div>
     </div>
 
-  <footer>
+    <div class="medium-4 columns">
+      <div class="card">
+        <div class="image">
+          <img src="assets/imgs/edemen.png">
+          <span class="title">Ede Men</span>
+        </div>
+        <div class="content">
+          <div class="text-justify">
+            A full stack app that connects humanitarians with local Haitian NGOs that have a track record of success and transparency. As the team Full Stack Developer, I built the User/Admin functionalities and structure, I researched data and built the data visualization, and debugged the front end.
+          </div>
+          <hr>
+          Ruby on Rails, JavaScript, Foundation, Sass, PayPal API, Twitter Widgets, Lazy High Charts, and Heroku
+        </div>
+        <div class="action"><center>
+          <a href='https://ede-men.herokuapp.com'>See the App</a>
+          <a href='https://github.com/wnamen/edemen'>See the Code</a>
+        </div>
+      </div>
+    </div>
 
-  </footer>
+    <div class="medium-4 columns">
+      <div class="card">
+        <div class="image">
+          <img src="assets/imgs/wander.png">
+          <span class="title">Wander</span>
+        </div>
+        <div class="content">
+          <div class="text-justify">
+            A full stack travel app that targets modern travelers who are seeking exciting destinations through a community of experiences. I led the team as a Project Lead and Lead Backend Developer. I built the structure and routes, and debugged all code.
+          </div>
+          <hr>
+          Ruby on Rails, JavaScript, Haml, Foundation, Sass, and Heroku
+        </div>
+        <div class="action"><center>
+          <a href='https://wanderwithme.herokuapp.com'>See the App</a>
+          <a href='https://github.com/wnamen/project-vagabond'>See the Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="row">
+
+      <div class="medium-4 columns">
+        <div class="card">
+          <div class="image">
+            <img src="assets/imgs/clarity.png">
+            <span class="title">Clarity</span>
+          </div>
+          <div class="content">
+            <div class="text-justify">
+              A simple, clean alternative to tracking the stock market. This app incorporates real-time market data from bigchart.com’s API coupled with data visualization using D3.
+            </div>
+            <hr>
+            AngularJS, Skeleton, Ajax, ExpressJS, and NodeJs
+          </div>
+          <div class="action"><center>
+            <a href='https://marketclarity.herokuapp.com'>See the App</a>
+            <a href='https://github.com/wnamen/clarity'>See the Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="medium-4 columns">
+        <div class="card">
+          <div class="image">
+            <img src="assets/imgs/foodify.png">
+            <span class="title">Foodify</span>
+          </div>
+          <div class="content">
+            <div class="text-justify">
+              A full-stack CRUD app that looks to optimize the ingredients in your own pantry and prevent waste. Led the team as the Project Lead and Backend Developer. I created wire framing and user stories, and built the back-end structure with API requests.
+            </div>
+            <hr>
+            JavaScript, JQuery, Ajax, MongoDB, ExpressJS, NodeJS, Unirest, Masonry, Heroku, and Bootstrap
+          </div>
+          <div class="action"><center>
+            <a href='https://foodifyme.herokuapp.com'>See the App</a>
+            <a href='https://github.com/wnamen/foodify'>See the Code</a>
+          </div>
+        </div>
+      </div>
+
+    <div class="medium-4 columns">
+      <div class="card">
+        <div class="image">
+          <img src="assets/imgs/mastermind.png">
+          <span class="title">Mastermind</span>
+        </div>
+        <div class="content">
+          <div class="text-justify">
+            A remake of the classic code-breaking game. This is a front-end app that utilizes JavaScript for the logic and JQuery for rendering the view.
+          </div>
+          <hr>
+          JavaScript, Jquery, HTML, and CSS
+        </div>
+        <div class="action"><center>
+          <a href='https://williamnamen.com/mastermind'>See the App</a>
+          <a href='https://github.com/wnamen/mastermind'>See the Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
 </body>
 </html>

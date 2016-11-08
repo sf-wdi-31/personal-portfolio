@@ -1,0 +1,22 @@
+{
+  "name": "wnamen.github.io",
+  "version": "1.0.0",
+  "description": "My goal for this site was to incorporate a simple, yet elegant design with an easy user interface and navigation.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wnamen/wnamen.github.io.git"
+  },
+  "author": "William Namen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wnamen/wnamen.github.io/issues"
+  },
+  "homepage": "https://github.com/wnamen/wnamen.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
