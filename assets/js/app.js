@@ -3,16 +3,18 @@ console.log("app.js linked.");
 
 $(document).ready(function(){
 
+  // $("#profile-pic").delay(1000).animate({ opacity: 1 }, 700);​
+
+  $(".card-link").hover(function(){
+    $(this).addClass('animated slideInUp');
+  }, function(){
+    $(this).removeClass('animated slideInUp');
+  })
+
+
   // $("#apps").css("display", "none");
   // $("#exercises").css("display", "none");
   //
-  // $(window).on("scroll", function handleScroll(){
-  //   if ($(this).scrollTop() < 150) {
-  //     $('#header-info').slideDown("slow");
-  //   } else {
-  //     $('#header-info').slideUp("slow");
-  //   }
-  // })
   //
   // var time;
   //

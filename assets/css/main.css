@@ -1,14 +1,44 @@
 body {
   font-family: 'Raleway', sans-serif;
-  color: #0FB493;
+  color: whiteSmoke;
+  /*background-color: #1D2F3E;*/
+}
+
+header {
   background-color: #1D2F3E;
+  padding: 5rem 0 5rem 0;
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  margin-bottom: 1rem;
 }
 
 h1 {
   color: #0F9FB4;
-  font-size: 60px;
   line-height: 1;
   margin-bottom: 0;
+  text-shadow: 2px 2px 10px rgba(150, 150, 150, 0.82);
+}
+
+h5 {
+  color: #0FB493;
+  text-shadow: 2px 2px 5px rgba(150, 150, 150, 0.82);
+
+}
+
+#head-info {
+  overflow: hidden;
+  /*padding: .7rem;
+  -webkit-box-shadow: 12px 29px 81px 40px rgba(0,0,0,0.75);
+  -moz-box-shadow: 12px 29px 81px 40px rgba(0,0,0,0.75);
+  box-shadow: 12px 29px 81px 40px rgba(0,0,0,0.75);*/
+  border-radius: 2px;
+  -vendor-animation-delay: 2s;
+
+}
+
+section {
+  padding: 5rem 0 5rem 0;
 }
 
 .card {
@@ -18,7 +48,7 @@ h1 {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   color: #1D2F3E;
   border-radius: 2px;
-  margin-bottom: 1rem; 
+  margin-bottom: 2rem;
 }
   .card .title {
     line-height: 3rem;
@@ -34,7 +64,7 @@ h1 {
     border-top: 1px solid rgba(160, 160, 160, 0.2);
     padding: 1.3rem; }
   .card a {
-    color: #0F9FB4;
+    color: #0FB493;
     margin-right: 1.3rem;
     transition: color 0.3s ease;
     text-transform: uppercase;
@@ -51,12 +81,12 @@ h1 {
     .card .image img {
       border-radius: 2px 2px 0 0; }
 
-
-
 #profile-pic {
   overflow: hidden;
-  background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 80%);
+  border-radius: 2px;
+  -vendor-animation-delay: 2s;
 
-  /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);*/
-  /*border-radius: 50%;*/
+  /*-webkit-box-shadow: 0px 0px 50px 40px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 50px 40px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 50px 40px rgba(0,0,0,0.75);*/
 }
