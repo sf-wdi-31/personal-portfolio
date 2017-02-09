@@ -1,0 +1,26 @@
+{
+  "name": "wnamen.github.io",
+  "version": "1.0.0",
+  "author": "William Namen",
+  "license": "MIT",
+  "description": "My goal for this site was to incorporate a simple, yet elegant design with an easy user interface and navigation.",
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-foundation": "^0.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wnamen/wnamen.github.io.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

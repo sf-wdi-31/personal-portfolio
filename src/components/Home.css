@@ -1,0 +1,30 @@
+.homeContainer > h2 {
+  top: 1em;
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	text-transform: uppercase;
+	white-space: nowrap;
+	font-weight: 200;
+	font-style: italic;
+	font-size: 11.8vw;
+  color: #525253;
+	cursor: default;
+  border-top: 2px solid #525253;
+  border-bottom: 2px solid #525253;
+}
+
+.homeContainer > h4 {
+  top: 3.5em;
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	text-transform: uppercase;
+  text-align: center;
+	white-space: nowrap;
+	font-weight: 200;
+	font-style: italic;
+	font-size: 7vw;
+  color: #525253;
+	cursor: default;
+}
