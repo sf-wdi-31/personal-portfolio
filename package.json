@@ -1,23 +1,26 @@
 {
   "name": "wnamen.github.io",
   "version": "1.0.0",
+  "author": "William Namen",
+  "license": "MIT",
   "description": "My goal for this site was to incorporate a simple, yet elegant design with an easy user interface and navigation.",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-foundation": "^0.7.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wnamen/wnamen.github.io.git"
   },
-  "author": "William Namen",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wnamen/wnamen.github.io/issues"
-  },
-  "homepage": "https://github.com/wnamen/wnamen.github.io#readme",
-  "dependencies": {
-    "animate.css": "^3.5.2",
-    "jquery": "^3.1.1"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }

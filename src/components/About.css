@@ -1,0 +1,22 @@
+.aboutContainer > h2 {
+  top: 1em;
+	overflow: hidden;
+	width: 100%;
+	text-transform: uppercase;
+  text-align: center;
+	white-space: nowrap;
+	font-weight: 200;
+	font-style: italic;
+  font-size: 11.8vw;
+  color: #525253;
+	cursor: default;
+  border-top: 2px solid #525253;
+  border-bottom: 2px solid #525253;
+}
+
+.aboutContainer > p {
+  font-size: 4vw;
+  font-weight: 300;
+  margin: 13em 2em 4em 2em;
+  text-align: justify;
+}

@@ -1,0 +1,17 @@
+
+.contactContainer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 50vw;
+  left: 25.7vw;
+}
+
+.contactContainer > a {
+  color: #525253;
+  top: 9em;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 5vw;
+  cursor: pointer;
+}
